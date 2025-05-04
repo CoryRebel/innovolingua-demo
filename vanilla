@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; background: #f4f8fb; margin: 2rem; }
+header { text-align: center; background: #cce7ff; padding: 1rem; border-radius: 5px; }
+section { background: #fff; margin: 2rem 0; padding: 1rem; border-radius: 5px; }
+button { padding: 0.5rem 1rem; background: #007acc; color: white; border: none; border-radius: 4px; cursor: pointer; }
