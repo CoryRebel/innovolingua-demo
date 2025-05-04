@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InnovoLingua AI Interpreter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>InnovoLingua</h1>
+    <p>Your AI-Powered Language Access Portal</p>
+  </header>
+
+  <section id="interpreter">
+    <h2>AI Interpreter</h2>
+    <textarea id="interpreterInput" placeholder="Type to simulate interpreting..."></textarea>
+    <button onclick="interpret()">Interpret</button>
+    <div id="interpreterOutput"></div>
+  </section>
+
+  <section id="upload">
+    <h2>Document Upload</h2>
+    <form id="uploadForm">
+      <input type="file" required />
+      <input type="text" placeholder="Languages needed" required />
+      <input type="text" placeholder="PO or client ref #" />
+      <textarea placeholder="Instructions"></textarea>
+      <label><input type="checkbox" /> NDA Required</label>
+      <label><input type="date" /> Set Expiration</label>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="ai-assistant">
+    <h2>AI Assistant Chat</h2>
+    <div id="chatBox"></div>
+    <input type="text" id="chatInput" placeholder="Ask a question..." />
+    <button onclick="askAI()">Send</button>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
